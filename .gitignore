@@ -10,6 +10,9 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+#Static files
+/src/Scool.HttpApi.Host/wwwroot/photo/**
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -21,6 +24,8 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+dist
+build
 
 # Visual Studio 2015 cache/options directory
 .vs/
